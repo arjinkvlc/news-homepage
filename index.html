@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <title>News homepage</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 1.5%;
+    }
+
+    .attribution a {
+      color: #3E52A3;
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 0.7rem;
+    }
+
+    .attribution a:hover {
+      color: cyan;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg ">
+      <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class=" offcanvas offcanvas-end bg-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span class="navspan">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span class="navspan">New</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span class="navspan">Popular</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span class="navspan">Trending</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span class="navspan">Categories</span></a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8 ">
+      <img class="web-image img-fluid" src="images/image-web-3-desktop.jpg" alt="">
+      <div class="row">
+        <div class="col-lg-6  title-div">
+          <p class="title">The Bright Future of Web 3.0?</p>
+        </div>
+        <div class="col-lg-6 ">
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+            But is it really fulfilling its promise?</p>
+          <button type="button" class="btn btn-dark read-more"><span class="read-button">Read More</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 new-list">
+
+      <h1>New</h1>
+      <a class="subtitle" href="#">
+        <h4>Hydrogen VS Electric Cars</h4>
+      </a>
+      <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      <hr>
+      <a class="subtitle" href="#">
+        <h4>The Downsides of AI Artistry</h4>
+      </a>
+      <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      <hr>
+      <a class="subtitle" href="#">
+        <h4> Is VC Funding Drying Up?</h4>
+      </a>
+      <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="row">
+        <div class="col-lg-3">
+          <img style="width:100%" src="images/image-retro-pcs.jpg" alt="">
+        </div>
+        <div class="col-lg-9">
+          <p> <span class="numbers">01</span></p>
+          <a class="bottom-title" href="#">Reviving Retro PCs</a>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="row">
+        <div class="col-lg-3">
+          <img style="width:100%" src="images/image-top-laptops.jpg" alt="">
+        </div>
+        <div class="col-lg-9">
+          <p><span class="numbers">02</span></p>
+          <a class="bottom-title" href="#">Top 10 Laptops of 2022</a>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="row">
+
+        <div class="col-lg-3">
+          <img style="width:100%" src="images/image-gaming-growth.jpg" alt="">
+        </div>
+        <div class="col-lg-9">
+          <p><span class="numbers">03</span></p>
+          <a class="bottom-title" href="#">The Growth of Gaming</a>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/arjin-kavalc%C4%B1-9bb71b1b8/">Arjin Kavalcı</a>.
+  </div>
+  </div>
+</body>
+
+</html>
